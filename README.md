@@ -1,6 +1,7 @@
 # Ember-test-examples
 
 [![Build Status](https://travis-ci.org/dustinspecker/ember-test-examples.svg?branch=master)](https://travis-ci.org/dustinspecker/ember-test-examples)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
