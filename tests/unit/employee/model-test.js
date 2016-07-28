@@ -10,6 +10,9 @@ import { moduleForModel, test } from 'ember-qunit';
 //
 // The third parameter is configuration for this test environment.
 moduleForModel('employee', 'Unit | Model | employee', {
+  // default scaffold:
+  // needs: []
+
   // The existence of the `needs` property assumes this is a unit test.
   // This runs the test in isolation, meaning other models, adapters, etc.
   // will not be loaded unless added as a `need`.
