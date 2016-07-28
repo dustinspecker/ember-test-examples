@@ -20,7 +20,10 @@ moduleForModel('employee', 'Unit | Model | employee', {
   // `needs: []` is more common to see as models tend to have relationships
   // to other models and those models will have to be added as a "need" for
   // these tests when testing those relationships.
-  needs: []
+
+  // The employee model has a relationship to department, so the department
+  // model is needed for tests to run.
+  needs: ['model:department']
 });
 
 test('fullName is computed from first and last names', function (assert) {
